@@ -19,6 +19,7 @@
 
 <link rel="stylesheet" type="text/css" href="public/css/reset.css">
 <link rel="stylesheet" type="text/css" href="public/css/core-sk-2021.css">
+<link rel="stylesheet" type="text/css" href="public/css/responsive-sk-2021.css">
 
 <title>The Portfolio of Simon Kinslow</title>
 </head>
@@ -29,6 +30,7 @@
 
 	<div class="sk-rear-image">
 		<img src="public/img/header_0.jpg">
+		<div class="sk-rear-image-blend"></div>
 	</div>
 
 	<div class="sk-cont">
@@ -45,61 +47,61 @@
 		
 		<div class="sk-grid-inner">
 			<div class="sk-project-tile">
-				<div class="showcase-img">
+				<div class="showcase-img tween">
 					<img src="public/img/project_hero_2019_mdl.jpg">
 					<div class="showcase-img-grad"></div>
 				</div>
-				<div class="showcase-details">
+				<div class="showcase-details tween">
 					<p class="p-tny">MDL Beast Festival</p>
 					<p class="p-low">2019</p>
 				</div>
 			</div>
 			<div class="sk-project-tile">
-				<div class="showcase-img">
+				<div class="showcase-img tween">
 					<img src="public/img/project_hero_2019_hh.jpg">
 					<div class="showcase-img-grad"></div>
 				</div>
-				<div class="showcase-details">
+				<div class="showcase-details tween">
 					<p class="p-tny">Handley House App concept</p>
 					<p class="p-low">2019</p>
 				</div>
 			</div>
 			<div class="sk-project-tile">
-				<div class="showcase-img">
+				<div class="showcase-img tween">
 					<img src="public/img/project_hero_2020_ng2.jpg">
 					<div class="showcase-img-grad"></div>
 				</div>
-				<div class="showcase-details">
+				<div class="showcase-details tween">
 					<p class="p-tny">National Grid Refresh</p>
 					<p class="p-low">2020</p>
 				</div>
 			</div>
 			<div class="sk-project-tile">
-				<div class="showcase-img">
+				<div class="showcase-img tween">
 					<img src="public/img/project_hero_2020_shell.jpg">
 					<div class="showcase-img-grad"></div>
 				</div>
-				<div class="showcase-details">
+				<div class="showcase-details tween">
 					<p class="p-tny">Shell Recharge</p>
 					<p class="p-low">2020</p>
 				</div>
 			</div>
 			<div class="sk-project-tile">
-				<div class="showcase-img">
+				<div class="showcase-img tween">
 					<img src="public/img/project_hero_2017_brunobanani.jpg">
 					<div class="showcase-img-grad"></div>
 				</div>
-				<div class="showcase-details">
+				<div class="showcase-details tween">
 					<p class="p-tny">Bruno Banani Opening Lines</p>
 					<p class="p-low">2017</p>
 				</div>
 			</div>
 			<div class="sk-project-tile">
-				<div class="showcase-img">
+				<div class="showcase-img tween">
 					<img src="public/img/project_hero_.jpg">
 					<div class="showcase-img-grad"></div>
 				</div>
-				<div class="showcase-details">
+				<div class="showcase-details tween">
 					<p class="p-tny">A Forest of Wormholes</p>
 					<p class="p-low">2015</p>
 				</div>
@@ -113,10 +115,10 @@
 		<div class="sk-more">
 			<h6 class="h7">More</h6>
 			<h1 class="tween">
-				<a href="#" alt="">UI design.</a><br>
-				<a href="#" alt="">Code.</a><br>
-				<a href="#" alt="">Video.</a><br>
-				<a href="#" alt="">Advertising.</a>
+				<a href="ui_design.html" alt="">UI design.</a><br>
+				<a href="code.html" alt="Personal projects">Code.</a><br>
+				<a href="video.html" alt="Video work">Video.</a><br>
+				<a href="advertising.html" alt="Digital advertising">Advertising.</a>
 			</h1>
 		</div>
 
@@ -135,10 +137,35 @@
 	</div>
 
 	<div class="sk-nav">
+		
 		<div class="sk-nav-inner">
 			<h6><a href="index.html" alt="Back to home">Simon Kinslow.</a></h6>
 			<h6 class="sk-nav-menu">Menu.</h6>
 		</div>
+		<div class="sk-nav-inner sk-nav-back">
+			<p class="sk-nav-back-btn sk-nav-back-btn-default">Back.</p>
+		</div>
+
+	</div>
+
+</div>
+
+<div class="sk-nav-wrap tween">
+
+	<div class="sk-nav-extended tween">
+<!-- 		<div class="sk-nav-inner">
+			<h6><a href="index.html" alt="Back to home">Simon Kinslow.</a></h6>
+			<h6 class="sk-nav-menu">Close.</h6>
+		</div>
+
+		<div class="sk-nav-content">
+			<h1 class="sk-nav-content-links tween">
+				<a href="ui_design.html" alt="UI design">UI design.</a><br>
+				<a href="code.html" alt="Personal projects">Code.</a><br>
+				<a href="video.html" alt="Video work">Video.</a><br>
+				<a href="advertising.html" alt="Digital advertising">Advertising.</a>
+			</h1>
+		</div> -->
 	</div>
 
 </div>
@@ -146,7 +173,7 @@
 <script type="text/javascript" src="public/js/content-sk-2021.js"></script>
 <script type="text/javascript" src="public/js/core-sk-2021.js"></script>
 <script type="text/javascript">
-	build_home()
+	build_home(true)
 </script>
 </body>
 

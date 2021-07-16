@@ -1,0 +1,428 @@
+@charset "UTF-8";
+
+.header
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.header-index
+{
+	background-image: url(../img/header_0.jpg);
+	background-position: left bottom !important;
+}
+
+.header-work
+{
+	background-image: url(../img/header_A.jpg);
+	background-position: left bottom !important;
+}
+
+.header-own
+{
+	background-image: url(../img/header_B.jpg);
+	background-position: right bottom !important;
+}
+
+.header-0
+{
+	background-image: url(../img/header_0.jpg);
+	background-position: left bottom !important;	
+}
+
+.header-1
+{
+	background-image: url(../img/header_1.jpg);
+	background-position: 25% bottom !important;	
+}
+
+.header-2
+{
+	background-image: url(../img/header_2.jpg);
+	background-position: center bottom !important;	
+}
+
+.header-3
+{
+	background-image: url(../img/header_3.jpg);
+	background-position: 75% bottom !important;	
+}
+
+.header-4
+{
+	background-image: url(../img/header_4.jpg);
+	background-position: right bottom !important;	
+}
+
+.header-tuborg
+{
+	background-image: url(../img/project_hero_2017_tuborg.jpg);
+}
+
+.header-tuborg-equity
+{
+	background-image: url(../img/project_hero_2018_tuborg_equity.jpg);
+}
+
+.header-tuborg-open
+{
+	background-image: url(../img/project_hero_2018_tuborg_open.jpg);
+}
+
+.header-bruno-2016
+{
+	background-image: url(../img/project_hero_2016_brunobanani.jpg);
+}
+
+.header-bruno-2017
+{
+	background-image: url(../img/project_hero_2017_brunobanani.jpg);
+}
+
+.header-mands-christmas2017
+{
+	background-image: url(../img/project_hero_2017_mschristmas.jpg);
+}
+
+.header-mands-christmasFood2017
+{
+	background-image: url(../img/project_hero_2017_msfoodChristmas.jpg);
+}
+
+.header-mands-summerFood2017
+{
+	background-image: url(../img/project_hero_2017_msfood.jpg);
+}
+
+.header-gillette-2016
+{
+	background-image: url(../img/project_hero_2016_gillette.jpg);
+}
+
+.header-ms-spenditwell-2017
+{
+	background-image: url(../img/project_hero_2017_msspenditwell.jpg);
+}
+
+.header-ms-bts-2017
+{
+	background-image: url(../img/project_hero_2017_msbts.jpg);
+}
+
+.header-which-worldcup-2018
+{
+	background-image: url(../img/project_hero_2018_which_worldcup.png);
+}
+
+.header-which-2018
+{
+	background-image: url(../img/project_hero_2018_which_banners.png);
+}
+
+.header-canon-2016
+{
+	background-image: url(../img/project_hero_canon.jpg);
+}
+
+.header-pt-2016
+{
+	background-image: url(../img/project_hero_princes_trust.jpg);
+}
+
+.header-barilla-2015
+{
+	background-image: url(../img/project_hero_barilla.jpg);
+}
+
+.header-sonyx-2016
+{
+	background-image: url(../img/project_hero_sony_x.jpg);
+}
+
+.header-thebar-2015
+{
+	background-image: url(../img/project_hero_campaign_theBar.jpg);
+}
+
+.header-sony-2015
+{
+	background-image: url(../img/project_hero_2015_sony.jpg);
+	background-position: right center !important;
+}
+
+.header-christmas-2014
+{
+	background-image: url(../img/project_hero_christmas_tracker.jpg);	
+}
+
+.header-thebar-2014
+{
+	background-image: url(../img/project_hero_2014_thebar.jpg);
+}
+
+.header-virgintrains-2014
+{
+	background-image: url(../img/project_hero_virginTrains.jpg);		
+}
+
+.header-ofgem-2014
+{
+	background-image: url(../img/project_hero_ofgem.jpg);		
+}
+
+.header-sure-2014
+{
+	background-image: url(../img/project_hero_sure.jpg);		
+}
+
+.header-infiniti-2013
+{
+/*	background-image: url(../img/project_hero_infiniti_eu.jpg);
+	background-position: right center !important;*/
+
+	background-image: url(../img/project_hero_2013_infi.jpg);
+}
+
+.header-bbc-2013
+{
+	background-image: url(../img/project_hero_BBC.jpg);		
+}
+
+.header-thebar-2013
+{
+	background-image: url(../img/project_hero_theBar.jpg);		
+}
+
+.header-dulux-2012
+{
+	background-image: url(../img/project_hero_dulux.jpg);		
+}
+
+.header-google-2012
+{
+	background-image: url(../img/project_hero_google.jpg);		
+}
+
+.header-teamgb-2011
+{
+	background-image: url(../img/project_hero_adidas_teamGB.jpg);
+	background-position: left center !important;		
+}
+
+.header-areyouin-2011
+{
+	background-image: url(../img/project_hero_adidas_areYouIn.jpg);		
+}
+
+.header-nokia-n9-2011
+{
+	background-image: url(../img/project_hero_nokia_n9.jpg);		
+}
+
+.header-adidas-2010
+{
+	background-image: url(../img/project_hero_miCoach.jpg);
+}
+
+.header-nokia-n8-2010
+{
+	background-image: url(../img/project_hero_nokia_n8.jpg);
+}
+
+.header-reebok-2010
+{
+	background-image: url(../img/project_hero_reebok.jpg);
+}
+
+.header-royalmarines-standard-2009
+{
+	background-image: url(../img/project_hero_royalMarines_Standard.jpg);
+}
+
+.header-royalmarines-rich-2009
+{
+	background-image: url(../img/project_hero_royalMarines_Rich.jpg);
+}
+
+.header-which-emails-2017
+{
+	background-image: url(../img/project_hero_2017_which_emails.png);
+}
+
+.header-infiniti-style-2013
+{
+	background-image: url(../img/project_hero_2013_infi_style.jpg);
+}
+
+.header-amz-fire-2018
+{
+	background-image: url(../img/project_hero_2018_amz_fire.png);
+}
+
+.header-amz-lego-2018
+{
+	background-image: url(../img/project_hero_2018_amz_lego.jpg);
+}
+
+.header-amz-samsung-2018
+{
+	/*background-image: url(../img/project_hero_2018_amz_samsung.jpg);*/
+	background-image: url(../img/project_hero_2018_amz_samsung.png);
+	background-position: center top !important;
+}
+
+.header-amz-tv-2018
+{
+	background-image: url(../img/project_hero_2018_amz_tv.jpg);
+}
+
+.header-take90-2018
+{
+	background-image: url(../img/project_hero_2018_take90.png);
+}
+
+.header-gillette-2018
+{
+	background-image: url(../img/project_hero_2018_gillette.jpg);
+}
+
+.header-yoti-2019
+{
+	background-image: url(../img/project_hero_2019_yoti.jpg);
+	background-position: center bottom !important;
+}
+
+.header-aspria-2019
+{
+	background-image: url(../img/project_hero_2019_aspria.jpg);
+	background-position: center top !important;
+}
+
+.header-localgems-2019
+{
+	background-image: url(../img/project_hero_2019_local_gems.jpg);
+	background-position: center top !important;	
+}
+
+.header-mdl-2019
+{
+	background-image: url(../img/project_hero_2019_mdl.jpg);
+	background-position: center bottom !important;	
+}
+
+.header-hh-2019
+{
+	background-image: url(../img/project_hero_2019_hh.jpg);
+	background-position: center bottom !important;	
+}
+
+.header-ng1-2020
+{
+	background-image: url(../img/project_hero_2020_ng1.jpg);
+	background-position: center bottom !important;		
+}
+
+.header-ng2-2020
+{
+	background-image: url(../img/project_hero_2020_ng2.jpg);
+	background-position: center bottom !important;		
+}
+
+.header-shell-2020
+{
+	background-image: url(../img/project_hero_2020_shell.jpg);
+	background-position: center center !important;		
+}
+
+
+/*PERSONAL HEADERS*/
+
+.header-tfl-2018
+{
+	background-image: url(../img/project_hero_OhShiiiiit.jpg);	
+}
+
+.header-weather-2017
+{
+	background-image: url(../img/project_hero_WeatheredGifs.jpg);
+	background-position: left center !important;
+}
+
+.header-afow-2015
+{
+	background-image: url(../img/project_hero_.jpg);	
+}
+
+.header-mario404-2013
+{
+	background-image: url(../img/project_hero_mario.jpg);	
+	background-position: right center !important;
+}
+
+.header-hungryclock-2013
+{
+	background-image: url(../img/project_hero_hungryMonkey.jpg);
+}
+
+.header-godofwind-2012
+{
+	background-image: url(../img/project_hero_god_of_wind.jpg);
+}
+
+.header-moonlit-2012
+{
+	background-image: url(../img/project_hero_moonlit_options.jpg);
+}
+
+.header-moonlit-2012
+{
+	background-image: url(../img/project_hero_moonlit_options.jpg);
+}
+
+.header-roosting-2011
+{
+	background-image: url(../img/project_hero_roosting.jpg);
+}
+
+.header-theirlastever-2010
+{
+	background-image: url(../img/project_hero_their_last_ever.jpg);
+}
+
+.header-polish-2007
+{
+	background-image: url(../img/project_hero_the_polish_brothers.jpg);
+}
+
+.header-bombuspet-2005
+{
+	background-image: url(../img/project_hero_bombus_pet.jpg);
+}
+
+.header-lostpaths-2004
+{
+	background-image: url(../img/project_hero_lost_paths.jpg);
+	background-position: center bottom !important;
+}
+
+.header-absurdism-2004
+{
+	background-image: url(../img/project_hero_absurdism.jpg);
+}
+
+.header-unity
+{
+	background-image: url(../img/unity_bg.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
