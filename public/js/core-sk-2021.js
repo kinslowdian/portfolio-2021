@@ -32,7 +32,7 @@ const attach_nav = () =>
 {
 	// CONTAINERS
 	displayObj.nav_wrap = document.querySelector(".sk-nav-wrap")
-	displayObj.nav_extended = document.querySelector(".sk-nav-wrap .sk-nav-extended")
+	displayObj.nav_extended = document.querySelector(".sk-nav-wrap .sk-nav-extended") 
 
 	displayObj.nav_extended.innerHTML = html_extended_nav
 
@@ -47,10 +47,23 @@ const attach_nav = () =>
 		displayObj.nav_menu_back_btn.classList.remove("sk-nav-back-btn-default")
 
 		enable_nav_back()
+
+		extend_nav_links()
 	}
 
 	enable_nav()
 	enable_nav_extended()
+}
+
+const extend_nav_links = () =>
+{
+	displayObj.nav_list = document.querySelectorAll(".sk-nav-wrap .sk-nav-extended .sk-nav-content-links a")
+
+	for(let i = 0; i < displayObj.nav_list.length; i++)
+	{
+		let ext_url = "../" + displayObj.nav_list[i].getAttribute("href")
+		displayObj.nav_list[i].setAttribute("href", ext_url)
+	}
 }
 
 const enable_nav = () =>
